@@ -1,6 +1,5 @@
 # local env files
 /.env
-vercel.json
 /prepare
 /test.ipynb
 /img

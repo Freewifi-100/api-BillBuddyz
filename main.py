@@ -58,7 +58,7 @@ async def create_upload_file(file: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail=str(e))
     
 async def main():
-    config = uvicorn.Config("main:app", port=5000, log_level="info", reload=True)
+    config = uvicorn.Config("main:app", port=5000, reload=True)
     server = uvicorn.Server(config)
     await server.serve()
 

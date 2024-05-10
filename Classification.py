@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # call the model
-model = keras.models.load_model('./model/CNN_20epochNoBG.h5')
+model = keras.models.load_model('./model/CNN_20epochBG.h5')
 
 def upload_image(image_path):
     img = cv2.imread(image_path)

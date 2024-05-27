@@ -2,7 +2,8 @@ import requests
 
 img_send = './img_test/test1_result.jpg'
 def send_image(filename):
-    response = requests.post('http://127.0.0.1:8000/uploadfile/', files={'file': open(filename, 'rb')})
+    # response = requests.post('http://127.0.0.1:8000/uploadfile/', files={'file': open(filename, 'rb')})
+    response = requests.post('https://wangaim-api-bill-buddyz.hf.space/uploadfile/', files={'file': open(filename, 'rb')})
     return response.json()
 
 # Test

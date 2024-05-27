@@ -2,6 +2,7 @@
 
 1. ```pip install -r requirements.txt``` before run ```python main.py```
 
+hugging face : https://huggingface.co/spaces/Wangaim/api-bill-buddyz/tree/main
 ---
 
 **Advisor** : Dr. Taweechai Nuntawisuttiwong

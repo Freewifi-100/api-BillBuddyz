@@ -1,6 +1,6 @@
 # local env files
 /venv
-/prepare
 /test.ipynb
 /img
 /img_test
+/prepare/dataset
